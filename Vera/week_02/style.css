@@ -26,7 +26,7 @@ table{
     align-content: right;
 }
 
-/* header area */
+/* --------------- header area --------------- */
 
 header {
     background-color: rgb(107, 49, 22);
@@ -38,11 +38,27 @@ nav ul {
     list-style-type: none;
 }
 
-header li {
-    display: inline-block;
+ul li a {
+    padding: 20px;
+    display: block;
+    color: wheat;
+    text-decoration: none;
 }
 
-/* boxes */
+header li {
+    display: inline-block;
+}   
+
+li:hover{
+    background-color: rgb(76, 34, 14);
+
+}
+
+section{
+    padding: 32px;
+}
+
+/* --------------- boxes --------------- */
 #boxes {
     background: url("https://sothebys-com.brightspotcdn.com/b9/5f/d4b55ee64cadb1a43165305c2990/068hk0732-9fcmh.jpg") no-repeat fixed center center/cover;
 }
