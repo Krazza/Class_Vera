@@ -23,3 +23,9 @@ table, td, th {
     border-width: 2px;
     border-collapse: collapse;
 }
+
+.center{
+    text-align: center;
+    background: #ebee;
+    font-weight: 800;
+}
