@@ -1,0 +1,25 @@
+tbody td {
+    /* border: solid black;
+    border-collapse: collapse;
+    border-width: 2px; */
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+}
+
+th {
+    padding: 8px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td, th {
+    border: solid black;
+    border-width: 2px;
+    border-collapse: collapse;
+}
