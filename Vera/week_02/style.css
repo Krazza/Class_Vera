@@ -114,3 +114,31 @@ section{
     width: 500px;
     border-radius: 12px;
 }
+
+/* table */
+table {
+    border-collapse: collapse;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+td {
+    width: 200px;
+}
+
+thead {
+    font-weight: bold;
+    background:rgb(76, 34, 14);
+    color: wheat;
+
+}
+
+tbody td {
+    border-bottom:  1px solid rgb(107, 49, 22);
+    text-align: center;
+    padding: 6px;
+}
