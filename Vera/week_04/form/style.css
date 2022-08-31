@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(35,103,71,255);
+}
+
+.myContainerClass {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.myInputClass input{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myButtonClass{
+    width: 65%;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    height: 40px;
+    background-color: #ff7f50;
+    border-width: 0px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.bttnTxtFix{
+    text-align: center;
+}
+
+input {
+    height: 36px;
+    border-radius: 5px;
+    border-width: 1px;    
+}
+
+#p1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 11%;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+label {
+    text-align: left;
+    padding-top: 22px;
+    padding-bottom: 6px;
+    padding-left: 4.5%;
+}
+
+.textMover{
+    white-space: pre-wrap;
+}
+
+label{
+    display: block;
+}
+
+.footerText{
+    text-align: center;
+    margin-top: 1.8%;
+    color: #ffffff;
+}
+
+.orangeTxt{
+    color:#ff7f50;
+}

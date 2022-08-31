@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title> Simple form</title>
+</head>
+<body>
+    <div class="myContainerClass">
+        <form>
+        <div>
+            <h1> Sign up </h1>
+            <h3> It's free and only takes a minute </h3>
+        </div>
+        <div class="myInputClass">
+            <section>
+                <label for="userFirstName"> First name </label>
+                <input type="text" id="userFirstName" placeholder="First name">
+            </section>
+            <section>
+                <label for="userLastName"> Last name </label>
+                <input type="text" id="userLastName" placeholder="Last name">
+            </section>
+            <section>
+                <label for="userEmail"> Email </label>
+                <input type="email" id="userEmail" placeholder="Email">
+            </section>
+            <section>
+                <label for="userPassword"> Password </label>
+                <input type="password" id="userPassword" placeholder="Password">
+            </section>
+            <section>
+                <label for="userPasswordConfirmation"> Confirm your password </label>
+                <input type="text" id="userPasswordConfirmation" placeholder="Password">
+            </section>
+        </div>
+        <div class="bttnTxtFix">
+            <input type="button" class="myButtonClass" id="signUpBttn" value="SIGN UP">
+            <p id="p1"> By clicking the Sign Up button, you agree to our <span class="orangeTxt"> Terms & Conditions </span> and <span class="orangeTxt"> Privacy Policy </span> </p>
+        </div>
+        </form>
+    </div>
+    <div class="footerText">
+        <p> Already have an account? <span class="orangeTxt"> Login here </span></p>
+    </div>
+</body>
+</html>
