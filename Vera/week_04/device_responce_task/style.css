@@ -1,0 +1,38 @@
+@media(max-width: 480px)
+{ 
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media(max-width: 600px)
+{ 
+    body {
+        background-color: rgb(121, 241, 157);
+    }
+}
+
+@media(max-width: 768px)
+{ 
+    body {
+        background-color: rgb(145, 241, 121);
+    }
+}
+
+@media(max-width: 992px)
+{ 
+    body {
+        background-color: rgb(211, 241, 121);
+    }
+}
+
+@media(max-width: 1200px)
+{ 
+    body {
+        background-color: rgb(241, 225, 121);
+    }
+}
+
+section{
+    min-height: 25vh;
+}
